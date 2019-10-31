@@ -26,17 +26,22 @@ application signature. Google it!
 #### boohackapp.properties
 paste this to file and YOUR_MAP_KEY to your map token from google console:
 
+```
 mapKey=<YOUR_MAP_KEY>
+```
 
 #### key.properties
 
 properties for signature. If it’s not clear what to shove, google it
-
+```
 storePassword=YOUR_STORE_PASSWORD
-keyPassword=YOUR_KEY_PASSWORD
-keyAlias=YOUR_KEY_ALIAS
-storeFile=./key.jks
 
+keyPassword=YOUR_KEY_PASSWORD
+
+keyAlias=YOUR_KEY_ALIAS
+
+storeFile=./key.jks
+```
 After adding the files, open the android folder in Android Studio and "build gradle"
 
 If you didn’t succeed in starting the application after my explanations, have a drink and start reading readme first
