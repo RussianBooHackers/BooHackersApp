@@ -8,6 +8,39 @@ instruction:
 
 `flutter run`
 
+## Before first running
+
+add files:
+
+- android/app/google-services.json
+- android/app/key.jks
+- android/boohackapp.properties
+- android/key.properties
+
+#### google-services.json
+we can download this file in the firebase console. Needed for firebase to work
+
+#### key.jks
+application signature. Google it!
+
+#### boohackapp.properties
+paste this to file and YOUR_MAP_KEY to your map token from google console:
+
+mapKey=<YOUR_MAP_KEY>
+
+#### key.properties
+
+properties for signature. If it’s not clear what to shove, google it
+
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=YOUR_KEY_ALIAS
+storeFile=./key.jks
+
+After adding the files, open the android folder in Android Studio and "build gradle"
+
+If you didn’t succeed in starting the application after my explanations, have a drink and start reading readme first
+
 ## !!Important note
 
 Since it was added source generation. please run `$ flutter pub run build_runner build --delete-conflicting-outputs` first or `$ flutter pub run build_runner watch --delete-conflicting-outputs` for continuous rebuilding. but be aware it can lock the flutter.
