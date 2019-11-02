@@ -43,7 +43,7 @@ class _MapViewState extends State<MapView> {
           controller: panelController,
           parallaxEnabled: true,
           parallaxOffset: 0.8,
-          minHeight: 192,
+          minHeight: 160,
           maxHeight: height - 208,
           borderRadius: radius,
           defaultPanelState: PanelState.CLOSED,
@@ -67,9 +67,7 @@ class _MapViewState extends State<MapView> {
                         ),
                       ),
                       BarInfo(bar: state.barToPreview),
-                      Divider(
-                        height: 2,
-                      ),
+                      Divider(height: 2),
                     ] else
                       Container(
                         height: 180,

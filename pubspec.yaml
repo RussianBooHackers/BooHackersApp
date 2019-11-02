@@ -39,6 +39,7 @@ dependencies:
   swipe_stack: ^1.0.0
   dynamic_theme: ^1.0.0
   sliding_up_panel: ^0.3.6
+  smooth_star_rating: 1.0.3
   built_value:
   built_collection:
 
