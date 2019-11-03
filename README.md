@@ -1,6 +1,6 @@
 # boohack
 
-## commit from Grizzly bar SPB
+## commit from BARSLONA bar SPB
 
 instruction:
 
