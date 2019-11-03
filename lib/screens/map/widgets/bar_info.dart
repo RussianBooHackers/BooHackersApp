@@ -43,6 +43,10 @@ class BarInfo extends StatelessWidget {
                     color: ITColors.primary,
                     borderColor: ITColors.primary,
                     spacing: 5.0),
+                GestureDetector(
+                  onTap: () => DialogBloc.getInstance().dispatch(OpenDialogEvent(text: "оценить", confirm: () {})),
+                  child: Text("Оценить", style: ITTextStyle(color: ITColors.secondaryText)),
+                ),
               ],
             ),
           ),
